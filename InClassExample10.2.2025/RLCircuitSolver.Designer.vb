@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class InClassExampleForm
+Partial Class RLCircuitSolverForm
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -328,7 +328,7 @@ Partial Class InClassExampleForm
         Me.RectangularRadioButton.Text = "Rectangular"
         Me.RectangularRadioButton.UseVisualStyleBackColor = True
         '
-        'InClassExampleForm
+        'RLCircuitSolverForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -360,8 +360,8 @@ Partial Class InClassExampleForm
         Me.Controls.Add(Me.FrequencyTextBox)
         Me.Controls.Add(Me.CalculateButton)
         Me.Controls.Add(Me.ExitButton)
-        Me.Name = "InClassExampleForm"
-        Me.Text = "Pretty Numbers"
+        Me.Name = "RLCircuitSolverForm"
+        Me.Text = "Circuit Solver"
         CType(Me.VoltageTrackBar, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.RadioGroupBox.ResumeLayout(False)

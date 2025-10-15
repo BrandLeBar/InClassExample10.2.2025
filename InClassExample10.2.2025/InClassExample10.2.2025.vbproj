@@ -73,11 +73,11 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="InClassExample10.2.2025.vb">
+    <Compile Include="RLCircuitSolver.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="InClassExample10.2.2025.Designer.vb">
-      <DependentUpon>InClassExample10.2.2025.vb</DependentUpon>
+    <Compile Include="RLCircuitSolver.Designer.vb">
+      <DependentUpon>RLCircuitSolver.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -97,8 +97,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="InClassExample10.2.2025.resx">
-      <DependentUpon>InClassExample10.2.2025.vb</DependentUpon>
+    <EmbeddedResource Include="RLCircuitSolver.resx">
+      <DependentUpon>RLCircuitSolver.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
